@@ -1,5 +1,5 @@
 ![header image](./ed-badge.png)
-
+=
 # reachability
 Swift project to manage connectivity state in an application. 
 
