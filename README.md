@@ -47,4 +47,4 @@ override func viewDidLoad()
     } catch {
         self.connectionDot.setConnection(state: .ERROR)
     }
-}```
+}
