@@ -43,6 +43,12 @@ public extension Notification.Name {
     static let reachabilityChanged = Notification.Name("reachabilityChanged")
 }
 
+/// One thing I have noticed is that when connected to Wi-Fi in Simulator, it reports
+/// just fine. Then turn Wi-Fi off. Works. Then turn Wi-Fi back on, and it doesn't detect
+/// that. I think it's a Simulator problem only.
+///
+/// Link: https://github.com/ashleymills/Reachability.swift/issues/317
+///
 public class Reachability {
     
     public typealias NetworkReachable = (Reachability) -> ()

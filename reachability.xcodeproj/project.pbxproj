@@ -59,8 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				AA285AE822A8B5A80024B341 /* AppDelegate.swift */,
-				AA285AFA22A8B6200024B341 /* Reachability.swift */,
-				AA285AFC22A8B7C20024B341 /* ReachabilityUI.swift */,
+				AA285AFE22A8BD3E0024B341 /* Network Classes */,
 				AA285AEA22A8B5A80024B341 /* ViewController.swift */,
 				AA285AEC22A8B5A80024B341 /* Main.storyboard */,
 				AA285AEF22A8B5AB0024B341 /* Assets.xcassets */,
@@ -68,6 +67,15 @@
 				AA285AF422A8B5AC0024B341 /* Info.plist */,
 			);
 			path = reachability;
+			sourceTree = "<group>";
+		};
+		AA285AFE22A8BD3E0024B341 /* Network Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA285AFA22A8B6200024B341 /* Reachability.swift */,
+				AA285AFC22A8B7C20024B341 /* ReachabilityUI.swift */,
+			);
+			path = "Network Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
