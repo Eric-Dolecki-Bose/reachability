@@ -5,7 +5,11 @@ Swift project to manage connectivity state in an application.
 
 ![header image](./wifi-badge.png?v=4&s=50)
 
-### Details ###
+## Table of contents
+* [Details](#details)
+* [Typical Use](#typical-use)
+
+## Details
 Get closure calls when connection to Wi-Fi or Cellular is made. Also a closure for when connection is lost. Pretty simple, but any application that requires a connection for service calls should be able to fail gracefully and notify the user of a problem instead of them thinking that the appliction bombed or is buggy.
 
 There is a small dot being used to show connection state.
@@ -17,7 +21,7 @@ There is a small dot being used to show connection state.
 
 This is a replacement for Apple's old Reachability code. Tested on device and it seems to work fine. In the Simulator it can be a little dodgy.
 
-### Typical Use ###
+## Typical Use
 
 By the way, the enum for ConnectionState is in the ReachabilityUI Class.
 
